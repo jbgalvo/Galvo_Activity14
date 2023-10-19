@@ -1,9 +1,10 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import Navbar from "./Navbar.jsx";
 
 function Layout() {
   return (
     <>
-      <h1>Layout Component</h1>
+      <Navbar />
       <div className="container">
         <Outlet></Outlet>
       </div>
