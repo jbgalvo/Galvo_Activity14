@@ -7,6 +7,7 @@ import Home from "./pages/Home.jsx";
 import Services from "./pages/Services.jsx";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
+import './assets/styles.css'
 
 function App() {
  
