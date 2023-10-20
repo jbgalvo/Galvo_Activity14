@@ -5,7 +5,7 @@ function Contact() {
 
   //Dynamically change title
   useEffect(() => {
-    document.title = `Contact - React Routing(Activity 14)`;
+    document.title = `Contact - Activity 14`;
   });
 
   return (

@@ -5,7 +5,7 @@ function About() {
 
   //Dynamically change title
   useEffect(() => {
-    document.title = `About - React Routing(Activity 14)`;
+    document.title = `About - Activity 14`;
   });
 
   return (

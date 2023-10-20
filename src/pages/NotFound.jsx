@@ -1,7 +1,14 @@
+import { useEffect  } from 'react'
 import { Link } from 'react-router-dom';
 import notFoundImage from '../assets/illustration-realestate.svg';
 
 function NotFound() {
+
+  //Dynamically change title
+  useEffect(() => {
+    document.title = `Page Not Found - Activity 14`;
+  });
+
   return (
     <>
       <div className="d-flex flex-column align-items-center justify-content-center gap-5 py-5">

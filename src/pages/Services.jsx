@@ -5,7 +5,7 @@ function Services() {
 
   //Dynamically change title
   useEffect(() => {
-    document.title = `Services - React Routing(Activity 14)`;
+    document.title = `Home - Activity 14`;
   });
 
   return (
