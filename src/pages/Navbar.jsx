@@ -4,7 +4,7 @@ import reactLogo from '../assets/react.svg';
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary shadow">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary bg-primary shadow">
         <div className="container">
           <Link className="navbar-brand" to="/">
             <img src={reactLogo} alt="Logo" width="30" height="24" className="d-inline-block align-text-top me-2" />
